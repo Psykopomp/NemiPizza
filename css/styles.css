@@ -1,10 +1,5 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(to right, #232526, #414345);
-    height: 100%;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 h1, h2, h3 {
@@ -34,7 +29,6 @@ header h2 {
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background: linear-gradient(to right, #232526, #414345);
 }
 
 .row-content {
