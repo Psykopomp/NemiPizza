@@ -29,10 +29,6 @@ header h2 {
 .jumbotron {
     margin: 0;
     padding: 30px;
-
-    background-image: url("https://images.app.goo.gl/i55YTDif4WVebZDU9");
-    background-size: cover;
-
 }
 
 .row-content {
