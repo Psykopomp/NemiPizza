@@ -40,7 +40,7 @@
                         <li class="nav-item active"><a class="nav-link" href="#"><i class="fa  fa-lg"></i> HOME </a></li>
                         <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-lg"></i> MENU</a></li>
                         <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-lg"></i> ORDER ONLINE </a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-lg"></i> EVENTS </a></li>
+                        <li class="nav-item"><a class="nav-link" href="#" data-toggle="tooltip" data-html="true" title="Coming Soon!"><i class="fa fa-lg"></i> EVENTS </a></li>
                         <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-lg"></i> ABOUT NEMI</a></li>
                     </ul>
                 </div>
@@ -72,7 +72,7 @@
                         <li><a href="#" class="text-dark">HOME</a></li>
                         <li><a href="aboutus.html" class="text-dark">MENU</a></li>
                         <li><a href="#" class="text-dark"><b>ORDER ONLINE</b></a></li>
-                        <li><a href="contactus.html" class="text-dark">EVENTS</a></li>
+                        <li><a href="contactus.html" class="text-dark" data-toggle="tooltip" data-html="true" title="Coming Soon!">EVENTS</a></li>
                         <li><a href="contactus.html" class="text-dark">ABOUT NEMI</a></li>
                     </ul>
                 </div>
@@ -89,6 +89,13 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Tooltip Script -->
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
 
 </body>
 
