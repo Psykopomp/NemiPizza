@@ -2,7 +2,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -11,19 +11,35 @@ header h1 {
 
 } 
 
-h2 {
+body h2 {
     color: #ff5555e3;
+    font-weight: 700;
+    font-size: 300%;
 }
 
 header h2 {
     color: #CEC8FF;
 }
 
+h3 {
+    margin-top: 90;
+}
 
+h4 {
+    margin: 30;
+}
 
+h5 {
+    margin-top: 20;
+}
+
+h6 {
+    margin-top: 20;
+    margin-bottom: 90;
+}
 .site-footer{
     padding: 20px 0;
-    background: linear-gradient( to right, #eb3349, #f45c43);
+    background: linear-gradient( to right, #eb3349, #f45c43, #eb3349);
 }
 
 .jumbotron {
@@ -38,7 +54,7 @@ header h2 {
 }
 
 .navbar {
-    background: linear-gradient( to right, #eb3349, #f45c43);
+    background: linear-gradient( to right, #eb3349, #f45c43, #eb3349);
 }
 
 .abs-center-x {
