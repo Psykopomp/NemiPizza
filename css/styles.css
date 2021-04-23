@@ -1,3 +1,5 @@
+
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -8,11 +10,12 @@ h1, h2, h3, h4 {
 
 header h1 {
     color: #ffffff;
+    font-size: 205%;
 } 
 
 .title-area {
     background-color: #000;
-    border: 1px solid #eb3349;
+    border: 1px solid #eb3333;
     box-shadow: 0px 0px 0px 10px #000;
     display: inline-block;
     margin: 10px auto;
@@ -30,10 +33,12 @@ header h1 {
     height:120px;
 }
 
+
 body h2 {
     color: #ff5555e3;
     font-weight: 700;
-    font-size: 300%;
+    font-size: 275%;
+
 }
 
 header h2 {
@@ -41,11 +46,12 @@ header h2 {
 }
 
 h3 {
-    margin-top: 90;
+    margin-top: 60;
 }
 
 h4 {
     margin: 30;
+    font-size: 140%;
 }
 
 h5 {
@@ -54,11 +60,11 @@ h5 {
 
 h6 {
     margin-top: 20;
-    margin-bottom: 90;
+    margin-bottom: 60;
 }
 .site-footer{
     padding: 20px 0;
-    background: linear-gradient( to right, #eb3349, #f45c43, #eb3349);
+    background: linear-gradient( to right, #eb3333, #f45c43, #eb3333);
 }
 
 .jumbotron {
@@ -73,11 +79,33 @@ h6 {
 }
 
 .navbar {
-    background: linear-gradient( to right, #eb3349, #f45c43, #eb3349);
+    background: linear-gradient( to right, #eb3333, #f45c43, #eb3333);
+
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #000000;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #000000;
 }
 
 .abs-center-x {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.list-unstyled:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 20px;
+    border-bottom: 1px solid black;
 }
